@@ -12,7 +12,7 @@ module.exports = function(app) {
     User.findOne({ phoneNumber: phoneNumber }).exec(function(err, user) {
       Play.find({}).sort('-_id').limit(1).exec(function(err, play) {
         vote = new Vote({
-          vote: req.body.Body,
+          value: req.body.Body,
           _play: play[0]._id,
           _user: user._id
         });
