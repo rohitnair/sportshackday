@@ -1,0 +1,1646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game xmlns="http://feed.elasticstats.com/schema/nfl/pbp-v1.0.xsd" id="8c0bce5a-7ca2-41e5-9838-d1b8c356ddc3" scheduled="2012-09-06T00:30:00+00:00" status="closed" home="NYG" away="DAL" completed="2012-09-06T03:34:17+00:00">
+  <!-- Generation  started at Fri Sep 14 19:28:52 +0000 2012 -->
+  <summary>
+    <home points="17" remaining_challenges="2" remaining_timeouts="2"/>
+    <away points="24" remaining_challenges="2" remaining_timeouts="2"/>
+  </summary>
+  <quarter number="1">
+    <event clock="15:00" type="cointoss" sequence="1" updated="2012-09-06T00:41:25+00:00">
+      <winner id="NYG" outcome="receive"/>
+      <summary>NYG wins coin toss, elects to receive.</summary>
+    </event>
+    <drive clock="15:00" team="NYG">
+      <play id="fdec3736-3598-4cde-ad4c-7270afc6d4e7" clock="15:00" type="kick" sequence="2" updated="2012-09-06T00:42:24+00:00" side="DAL" yard_line="35" down="1" yfd="10">
+        <participants>
+          <player id="beb64618-614c-49f7-a3aa-c0c75b7839ea" name="Dan Bailey" jersey="5" position="K" team="DAL"/>
+          <player id="a230a959-4fba-43cd-92a0-6552766c2bbf" name="David Wilson" jersey="22" position="RB" team="NYG"/>
+          <player id="996974b8-2e0a-47d9-90a7-c3455192d06b" name="Andre Holmes" jersey="15" position="WR" team="DAL"/>
+        </participants>
+        <summary>5-D.Bailey kicks 69 yards from DAL 35. 22-D.Wilson to NYG 16 for 20 yards (15-A.Holmes).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/fdec3736-3598-4cde-ad4c-7270afc6d4e7.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="7aa684fc-e2fd-4d85-a1ed-32cfe66ad19b" clock="14:56" type="pass" sequence="3" updated="2012-09-06T00:43:09+00:00" side="NYG" yard_line="16" down="1" yfd="10" direction="Left" distance="Long">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="23d7cd82-d526-4fd8-8f8a-97885f2bc926" name="Hakeem Nicks" jersey="88" position="WR" team="NYG"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 88-H.Nicks.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/7aa684fc-e2fd-4d85-a1ed-32cfe66ad19b.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="28140456-0132-4829-ae38-d68e10a5acc9" clock="14:49" type="pass" sequence="4" updated="2012-09-06T00:44:21+00:00" side="NYG" yard_line="16" down="2" yfd="10" direction="Middle" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="75f4e314-a25d-4833-b39e-02014853d7bb" name="Jason Hatcher" jersey="97" position="DT" team="DAL"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 80-V.Cruz. 80-V.Cruz to NYG 21 for 5 yards (50-S.Lee).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/28140456-0132-4829-ae38-d68e10a5acc9.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="6d2242b5-e6d6-421b-8d34-63706c98ea96" clock="14:05" type="pass" sequence="5" updated="2012-09-06T00:45:17+00:00" side="NYG" yard_line="21" down="3" yfd="5" direction="Middle" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 80-V.Cruz.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/6d2242b5-e6d6-421b-8d34-63706c98ea96.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="125caa08-8692-4232-bcc6-c80e59fef5f3" clock="13:58" type="punt" sequence="6" updated="2012-09-12T18:34:27+00:00" side="NYG" yard_line="21" down="4" yfd="5">
+        <participants>
+          <player id="2d7263cd-2437-46a8-bca6-a224576e3063" name="Steve Weatherford" jersey="5" position="P" team="NYG"/>
+          <player id="b84fb536-9705-45a9-b652-92a33578ac48" name="Dez Bryant" jersey="88" position="WR" team="DAL"/>
+          <player id="c38a3fbc-f9af-4676-b905-4f101a99194d" name="Zak DeOssie" jersey="51" position="LS" team="NYG"/>
+        </participants>
+        <summary>5-S.Weatherford punts 56 yards from NYG 21. 88-D.Bryant to DAL 24 for 1 yard (51-Z.DeOssie).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/125caa08-8692-4232-bcc6-c80e59fef5f3.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="13:44" team="DAL">
+      <play id="9e550ced-77f8-41a6-92c7-27ccc8937360" clock="13:44" type="rush" sequence="7" updated="2012-09-06T00:46:58+00:00" side="DAL" yard_line="24" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="e53ed040-6008-4de1-b5d4-6f69f85ea9bd" name="Chase Blackburn" jersey="93" position="LB" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 27 for 3 yards (93-C.Blackburn).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/9e550ced-77f8-41a6-92c7-27ccc8937360.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="ed73b709-9261-4323-8d56-d87d7b6f935e" clock="13:07" type="pass" sequence="8" updated="2012-09-06T00:46:24+00:00" side="DAL" yard_line="27" down="2" yfd="7">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="05492ae2-c310-49b2-927c-58d7d2d7d20c" name="Rocky Bernard" jersey="95" position="DT" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo sacked at DAL 19 for -8 yards (95-R.Bernard).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/ed73b709-9261-4323-8d56-d87d7b6f935e.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="08e7e0ea-9319-4bff-907f-88425a3c77b6" clock="12:27" type="pass" sequence="9" updated="2012-09-06T00:47:10+00:00" side="DAL" yard_line="19" down="3" yfd="15" formation="Shotgun" direction="Left" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="f0085214-6339-4843-a6c9-8ae118422284" name="Felix Jones" jersey="28" position="RB" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo incomplete. Intended for 28-F.Jones.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/08e7e0ea-9319-4bff-907f-88425a3c77b6.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="6fc32c49-164f-407b-acfd-3d88ac4ada1a" clock="12:21" type="punt" sequence="10" updated="2012-09-06T00:50:14+00:00" side="DAL" yard_line="19" down="4" yfd="15">
+        <participants>
+          <player id="4d1f4c44-3666-4014-95fc-4b0013b6d9a5" name="Chris Jones" jersey="6" position="P" team="DAL"/>
+          <player id="22eeb9ce-32a5-4728-bf30-06bd300b9365" name="Domenik Hixon" jersey="87" position="WR" team="NYG"/>
+          <player id="6371b8a8-a1cf-4ff4-b900-0203bbf004e0" name="Alex Albright" jersey="55" position="LB" team="DAL"/>
+          <player id="814993fd-79c4-4c89-a4d6-d69be0f6d459" name="Lawrence Vickers" jersey="47" position="FB" team="DAL"/>
+        </participants>
+        <summary>6-C.Jones punts 60 yards from DAL 19. 87-D.Hixon to NYG 31 for 10 yards (55-A.Albright,47-L.Vickers). Team penalty, Chop block, 13 yards, enforced at NYG 26.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/6fc32c49-164f-407b-acfd-3d88ac4ada1a.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="12:09" team="NYG">
+      <play id="1b45636f-720e-41b0-bc6f-b6cf9b2486a8" clock="12:09" type="rush" sequence="11" updated="2012-09-06T02:00:47+00:00" side="NYG" yard_line="13" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="75f4e314-a25d-4833-b39e-02014853d7bb" name="Jason Hatcher" jersey="97" position="DT" team="DAL"/>
+          <player id="d3b0253a-b4ff-4d4f-aa82-38c6b368e30b" name="Josh Brent" jersey="92" position="DT" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to NYG 15 for 2 yards (97-J.Hatcher,92-J.Brent).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/1b45636f-720e-41b0-bc6f-b6cf9b2486a8.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="544c1203-518c-49b2-aa63-53784f496fb6" clock="11:31" type="rush" sequence="12" updated="2012-09-06T00:52:25+00:00" side="NYG" yard_line="15" down="2" yfd="8" direction="Right">
+        <participants>
+          <player id="a230a959-4fba-43cd-92a0-6552766c2bbf" name="David Wilson" jersey="22" position="RB" team="NYG"/>
+          <player id="f5fa509a-fc67-4c74-be9f-cb9cc8815a6f" name="DeMarcus Ware" jersey="94" position="LB" team="DAL"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+        </participants>
+        <summary>22-D.Wilson to NYG 18 for 3 yards (94-D.Ware,50-S.Lee).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/544c1203-518c-49b2-aa63-53784f496fb6.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="87b2e179-f2b0-49a6-aa4f-e0aeed9acc8d" clock="10:50" type="pass" sequence="13" updated="2012-09-06T00:57:07+00:00" side="NYG" yard_line="18" down="3" yfd="5" formation="Shotgun" direction="Left" distance="Long">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+          <player id="c50caa8d-a858-46ad-b4af-9201753d2725" name="Gerald Sensabaugh" jersey="43" position="SAF" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 80-V.Cruz. 80-V.Cruz pushed ob at NYG 44 for 26 yards (43-G.Sensabaugh).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/87b2e179-f2b0-49a6-aa4f-e0aeed9acc8d.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="f6421211-7471-4029-95a8-09e1831fce5b" clock="10:20" type="pass" sequence="14" updated="2012-09-06T00:54:02+00:00" side="NYG" yard_line="44" down="1" yfd="10" direction="Middle" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="0ca741f8-58bd-4933-9d5c-0e04de3f4cff" name="Martellus Bennett" jersey="85" position="TE" team="NYG"/>
+          <player id="6fbd5f30-db84-4c38-98ea-69631bdbc53f" name="Bruce Carter" jersey="54" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 85-M.Bennett. 85-M.Bennett to DAL 47 for 9 yards (54-B.Carter).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/f6421211-7471-4029-95a8-09e1831fce5b.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="0dead184-39f6-4567-b8fe-a9bf36084015" clock="09:36" type="penalty" sequence="15" updated="2012-09-06T00:54:26+00:00" side="DAL" yard_line="47" down="2" yfd="1">
+        <participants>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+        </participants>
+        <summary>Penalty on NYG 80-V.Cruz, False start, 5 yards, enforced at DAL 47. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/0dead184-39f6-4567-b8fe-a9bf36084015.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="2978d25a-4ba4-423b-895f-ecad9afcb43a" clock="09:12" type="pass" sequence="16" updated="2012-09-06T00:55:31+00:00" side="NYG" yard_line="48" down="2" yfd="6" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="0ca741f8-58bd-4933-9d5c-0e04de3f4cff" name="Martellus Bennett" jersey="85" position="TE" team="NYG"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+          <player id="6fbd5f30-db84-4c38-98ea-69631bdbc53f" name="Bruce Carter" jersey="54" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 85-M.Bennett. 85-M.Bennett to DAL 42 for 10 yards (50-S.Lee,54-B.Carter).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/2978d25a-4ba4-423b-895f-ecad9afcb43a.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="2bd58065-5f0c-473c-ae3a-677ed418d7db" clock="08:29" type="rush" sequence="17" updated="2012-09-06T00:55:55+00:00" side="DAL" yard_line="42" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="f5fa509a-fc67-4c74-be9f-cb9cc8815a6f" name="DeMarcus Ware" jersey="94" position="LB" team="DAL"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to DAL 39 for 3 yards (94-D.Ware,50-S.Lee).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/2bd58065-5f0c-473c-ae3a-677ed418d7db.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="ededffef-8036-4134-a5a3-fc3408fb4935" clock="07:53" type="pass" sequence="18" updated="2012-09-06T00:56:26+00:00" side="DAL" yard_line="39" down="2" yfd="7" direction="Left" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="23d7cd82-d526-4fd8-8f8a-97885f2bc926" name="Hakeem Nicks" jersey="88" position="WR" team="NYG"/>
+          <player id="e0d47951-fea7-4f2a-a936-f4d758ea6b83" name="Morris Claiborne" jersey="24" position="CB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 88-H.Nicks. 88-H.Nicks to DAL 31 for 8 yards (24-M.Claiborne).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/ededffef-8036-4134-a5a3-fc3408fb4935.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="d3e4d4e0-3d3f-48ee-aac9-86f96ee5feda" clock="07:25" type="rush" sequence="19" updated="2012-09-06T00:57:51+00:00" side="DAL" yard_line="31" down="1" yfd="10" direction="Right">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="70a54b5f-a78f-4e3f-a482-0536ff978571" name="Sean Lissemore" jersey="95" position="DE" team="DAL"/>
+          <player id="f5fa509a-fc67-4c74-be9f-cb9cc8815a6f" name="DeMarcus Ware" jersey="94" position="LB" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to DAL 29 for 2 yards (95-S.Lissemore,94-D.Ware).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/d3e4d4e0-3d3f-48ee-aac9-86f96ee5feda.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="11136bf3-a22c-47fa-a9a3-ba5825f1e50f" clock="06:43" type="rush" sequence="20" updated="2012-09-06T01:08:05+00:00" side="DAL" yard_line="29" down="2" yfd="8" direction="Left">
+        <participants>
+          <player id="a230a959-4fba-43cd-92a0-6552766c2bbf" name="David Wilson" jersey="22" position="RB" team="NYG"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+          <player id="ad9a6262-7df3-41a8-9753-b89866f5cd0e" name="Barry Church" jersey="42" position="SAF" team="DAL"/>
+          <player id="ff6f5ff1-e368-4869-bf6a-22087f27ee9f" name="Chris Snee" jersey="76" position="G" team="NYG"/>
+        </participants>
+        <summary>22-D.Wilson to DAL 27, FUMBLES (50-S.Lee). 42-B.Church to DAL 34 for 6 yards (76-C.Snee).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/11136bf3-a22c-47fa-a9a3-ba5825f1e50f.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="06:33" team="DAL">
+      <play id="245c0845-b26e-413f-a6f7-ed249743923b" clock="06:33" type="rush" sequence="21" updated="2012-09-06T01:00:38+00:00" side="DAL" yard_line="34" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="6c48b2a7-924e-43ec-bcd9-f1cda06b2332" name="Linval Joseph" jersey="97" position="DT" team="NYG"/>
+          <player id="05492ae2-c310-49b2-927c-58d7d2d7d20c" name="Rocky Bernard" jersey="95" position="DT" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 36 for 2 yards (97-L.Joseph,95-R.Bernard).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/245c0845-b26e-413f-a6f7-ed249743923b.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="7c0a46b7-23ee-4b8f-856e-041f6282ca7a" clock="05:54" type="penalty" sequence="22" updated="2012-09-06T01:01:04+00:00" side="DAL" yard_line="36" down="2" yfd="8" formation="Shotgun">
+        <participants>
+          <player id="c3f2ea91-98d6-4d37-b5bd-3c7ac07e5b24" name="Tyron Smith" jersey="77" position="T" team="DAL"/>
+        </participants>
+        <summary>Penalty on DAL 77-T.Smith, False start, 5 yards, enforced at DAL 36. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/7c0a46b7-23ee-4b8f-856e-041f6282ca7a.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="16143019-07ed-4659-970e-659e760a82c1" clock="05:39" type="pass" sequence="23" updated="2012-09-06T01:02:21+00:00" side="DAL" yard_line="31" down="2" yfd="13" formation="Shotgun" direction="Middle" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="acf68a6a-3439-4ad6-8937-2562f4eba62b" name="Miles Austin" jersey="19" position="WR" team="DAL"/>
+          <player id="d2c5d2fa-dd75-444e-b8e0-63c31a3791be" name="Keith Rivers" jersey="55" position="LB" team="NYG"/>
+          <player id="9875ed64-766b-481e-bba2-3f085d4bac24" name="Jayron Hosley" jersey="28" position="CB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 19-M.Austin. 19-M.Austin to DAL 40 for 9 yards (55-K.Rivers,28-J.Hosley).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/16143019-07ed-4659-970e-659e760a82c1.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="5582571f-da8f-4e69-ad39-740ec5a86e71" clock="05:01" type="pass" sequence="24" updated="2012-09-06T01:13:17+00:00" side="DAL" yard_line="40" down="3" yfd="4" formation="Shotgun" direction="Right" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+          <player id="1e31bf53-67a4-4d8b-867a-af951c00f6d2" name="Jacquian Williams" jersey="57" position="LB" team="NYG"/>
+          <player id="391881cd-4f9f-49c8-ba78-10ce74728f6d" name="Kenny Phillips" jersey="21" position="SAF" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 85-K.Ogletree. 85-K.Ogletree to NYG 46 for 14 yards (57-J.Williams,21-K.Phillips).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/5582571f-da8f-4e69-ad39-740ec5a86e71.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="ccafd3cb-44b1-4039-98e7-a3b1dd79b11c" clock="04:26" type="penalty" sequence="25" updated="2012-09-06T01:03:15+00:00" side="NYG" yard_line="46" down="1" yfd="10">
+        <participants>
+          <player id="e38c9b1b-7c51-48a2-ac1d-a752502e8930" name="Jason Witten" jersey="82" position="TE" team="DAL"/>
+        </participants>
+        <summary>Penalty on DAL 82-J.Witten, False start, 5 yards, enforced at NYG 46. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/ccafd3cb-44b1-4039-98e7-a3b1dd79b11c.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="69bc9486-947f-48ca-aa77-e3394ef36ada" clock="04:09" type="rush" sequence="26" updated="2012-09-06T01:04:07+00:00" side="DAL" yard_line="49" down="1" yfd="15" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="d2c5d2fa-dd75-444e-b8e0-63c31a3791be" name="Keith Rivers" jersey="55" position="LB" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to NYG 46 for 5 yards (55-K.Rivers).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/69bc9486-947f-48ca-aa77-e3394ef36ada.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="ca482518-868f-45c0-8d1c-22a43abeb06b" clock="03:22" type="pass" sequence="27" updated="2012-09-06T01:05:05+00:00" side="NYG" yard_line="46" down="2" yfd="10" formation="Shotgun" direction="Left" distance="Long">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="b84fb536-9705-45a9-b652-92a33578ac48" name="Dez Bryant" jersey="88" position="WR" team="DAL"/>
+          <player id="ed8fdad4-b43e-4232-b0de-c579d5348286" name="Corey Webster" jersey="23" position="CB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo incomplete. Intended for 88-D.Bryant.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/ca482518-868f-45c0-8d1c-22a43abeb06b.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="d40d25c8-d4d8-4f30-82ea-ac2acc097738" clock="03:13" type="pass" sequence="28" updated="2012-09-06T01:09:05+00:00" side="NYG" yard_line="46" down="3" yfd="10" formation="Shotgun" direction="Left" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+          <player id="84d8e40d-8123-4c0e-a3c1-3d86013d48c9" name="Antrel Rolle" jersey="26" position="SAF" team="NYG"/>
+          <player id="5ce8cd6f-d187-4d23-93c2-9b863dfc7902" name="Michael Coe" jersey="37" position="CB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 85-K.Ogletree. 85-K.Ogletree to NYG 37 for 9 yards (26-A.Rolle,37-M.Coe).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/d40d25c8-d4d8-4f30-82ea-ac2acc097738.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="9bfc9f96-78a4-431d-9636-cbc173c1f17a" clock="02:46" type="rush" sequence="29" updated="2012-09-06T01:12:15+00:00" side="NYG" yard_line="37" down="4" yfd="1" direction="Left">
+        <participants>
+          <player id="814993fd-79c4-4c89-a4d6-d69be0f6d459" name="Lawrence Vickers" jersey="47" position="FB" team="DAL"/>
+          <player id="84d8e40d-8123-4c0e-a3c1-3d86013d48c9" name="Antrel Rolle" jersey="26" position="SAF" team="NYG"/>
+          <player id="d2c5d2fa-dd75-444e-b8e0-63c31a3791be" name="Keith Rivers" jersey="55" position="LB" team="NYG"/>
+        </participants>
+        <summary>47-L.Vickers to NYG 37 for no gain (26-A.Rolle,55-K.Rivers).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/9bfc9f96-78a4-431d-9636-cbc173c1f17a.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="02:12" team="NYG">
+      <play id="4a207628-c7d5-4098-8202-b94279316f80" clock="02:12" type="pass" sequence="30" updated="2012-09-06T01:12:43+00:00" side="NYG" yard_line="37" down="1" yfd="10" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="23d7cd82-d526-4fd8-8f8a-97885f2bc926" name="Hakeem Nicks" jersey="88" position="WR" team="NYG"/>
+          <player id="e0d47951-fea7-4f2a-a936-f4d758ea6b83" name="Morris Claiborne" jersey="24" position="CB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 88-H.Nicks. 88-H.Nicks to NYG 47 for 10 yards (24-M.Claiborne).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/4a207628-c7d5-4098-8202-b94279316f80.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="b94fb7db-d526-47e3-bee5-6d7d3fca7310" clock="01:35" type="rush" sequence="31" updated="2012-09-06T01:12:41+00:00" side="NYG" yard_line="47" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="70a54b5f-a78f-4e3f-a482-0536ff978571" name="Sean Lissemore" jersey="95" position="DE" team="DAL"/>
+          <player id="65859588-5da0-4df0-a339-6adf83287078" name="Anthony Spencer" jersey="93" position="LB" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to NYG 50 for 3 yards (95-S.Lissemore,93-A.Spencer).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/b94fb7db-d526-47e3-bee5-6d7d3fca7310.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="dd68cb07-c4eb-4078-820b-a2ddb632b7dd" clock=":58" type="rush" sequence="32" updated="2012-09-06T01:12:54+00:00" side="NYG" yard_line="50" down="2" yfd="7" direction="Right">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="75f4e314-a25d-4833-b39e-02014853d7bb" name="Jason Hatcher" jersey="97" position="DT" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to DAL 45 for 5 yards (97-J.Hatcher).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/dd68cb07-c4eb-4078-820b-a2ddb632b7dd.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="372121b3-ed28-44b8-ba10-ff103d3bb618" clock=":21" type="pass" sequence="33" updated="2012-09-06T01:13:13+00:00" side="DAL" yard_line="45" down="3" yfd="2" formation="Shotgun" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+          <player id="85a051d3-3f76-411d-a59e-82d04a971c3a" name="Orlando Scandrick" jersey="32" position="CB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 80-V.Cruz. 80-V.Cruz pushed ob at DAL 41 for 4 yards (32-O.Scandrick).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/372121b3-ed28-44b8-ba10-ff103d3bb618.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock=":00" type="quarterend" sequence="34" updated="2012-09-06T01:11:56+00:00">
+        <summary>End of Quarter</summary>
+      </event>
+    </drive>
+  </quarter>
+  <quarter number="2">
+    <drive clock="02:12" team="NYG">
+      <play id="f5141095-312c-4e76-b9a4-ac35a5460ab9" clock="15:00" type="pass" sequence="35" updated="2012-09-06T01:15:30+00:00" side="DAL" yard_line="41" down="1" yfd="10">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="f5fa509a-fc67-4c74-be9f-cb9cc8815a6f" name="DeMarcus Ware" jersey="94" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning sacked at NYG 44 for -15 yards (94-D.Ware).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/f5141095-312c-4e76-b9a4-ac35a5460ab9.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="aad06b01-9109-4d0c-9912-5673618a336d" clock="14:30" type="pass" sequence="36" updated="2012-09-06T01:16:20+00:00" side="NYG" yard_line="44" down="2" yfd="25" formation="Shotgun" direction="Middle" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 80-V.Cruz. 80-V.Cruz to DAL 45 for 11 yards (50-S.Lee).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/aad06b01-9109-4d0c-9912-5673618a336d.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="c91f4590-e272-4a7b-bf0f-0faff78cb713" clock="13:46" type="pass" sequence="37" updated="2012-09-06T01:16:50+00:00" side="DAL" yard_line="45" down="3" yfd="14" formation="Shotgun" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="23d7cd82-d526-4fd8-8f8a-97885f2bc926" name="Hakeem Nicks" jersey="88" position="WR" team="NYG"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 88-H.Nicks.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/c91f4590-e272-4a7b-bf0f-0faff78cb713.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="9aa41acc-80e4-4593-9e4b-cade08966552" clock="13:36" type="punt" sequence="38" updated="2012-09-06T01:16:41+00:00" side="DAL" yard_line="45" down="4" yfd="14">
+        <participants>
+          <player id="2d7263cd-2437-46a8-bca6-a224576e3063" name="Steve Weatherford" jersey="5" position="P" team="NYG"/>
+        </participants>
+        <summary>5-S.Weatherford punts 45 yards from DAL 45 to DAL End Zone. touchback.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/9aa41acc-80e4-4593-9e4b-cade08966552.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="13:27" team="DAL">
+      <play id="70ab0a07-c967-4b26-96d0-f5386289144d" clock="13:27" type="pass" sequence="39" updated="2012-09-06T01:21:49+00:00" side="DAL" yard_line="20" down="1" yfd="10" direction="Middle" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="b84fb536-9705-45a9-b652-92a33578ac48" name="Dez Bryant" jersey="88" position="WR" team="DAL"/>
+          <player id="e53ed040-6008-4de1-b5d4-6f69f85ea9bd" name="Chase Blackburn" jersey="93" position="LB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 88-D.Bryant. 88-D.Bryant to DAL 38 for 18 yards (93-C.Blackburn).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/70ab0a07-c967-4b26-96d0-f5386289144d.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="8027dfe7-a809-4d49-87f5-b9b48db0f8b2" clock="12:41" type="rush" sequence="40" updated="2012-09-06T01:20:33+00:00" side="DAL" yard_line="38" down="1" yfd="10" direction="Right">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="d2c5d2fa-dd75-444e-b8e0-63c31a3791be" name="Keith Rivers" jersey="55" position="LB" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 37 for -1 yard (55-K.Rivers).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/8027dfe7-a809-4d49-87f5-b9b48db0f8b2.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="6202cbe7-008f-44d4-ad86-6ac3585581c1" clock="11:57" type="rush" sequence="41" updated="2012-09-06T01:21:44+00:00" side="DAL" yard_line="37" down="2" yfd="11" direction="Middle">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="bbfb80d3-910b-4be2-be73-3dab3c5ce398" name="Justin Tuck" jersey="91" position="DE" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo scrambles to the to DAL 45 for 8 yards (91-J.Tuck).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/6202cbe7-008f-44d4-ad86-6ac3585581c1.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="60a4d24e-2f55-4a9b-b0b9-e60ed57fd260" clock="11:06" type="penalty" sequence="42" updated="2012-09-06T01:21:39+00:00" side="DAL" yard_line="45" down="3" yfd="3" formation="Shotgun">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+        </participants>
+        <summary>Penalty on DAL 9-T.Romo, Delay of game, 5 yards, enforced at DAL 45. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/60a4d24e-2f55-4a9b-b0b9-e60ed57fd260.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="bef48cc6-8182-48a3-a046-3cfb5fa9a090" clock="10:46" type="pass" sequence="43" updated="2012-09-06T03:40:07+00:00" side="DAL" yard_line="40" down="3" yfd="8" direction="Middle" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+          <player id="35309193-c21f-4b9a-9f33-2162e8c817b6" name="Michael Boley" jersey="59" position="LB" team="NYG"/>
+          <player id="c3f2ea91-98d6-4d37-b5bd-3c7ac07e5b24" name="Tyron Smith" jersey="77" position="T" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo incomplete. Intended for 85-K.Ogletree, INTERCEPTED by 59-M.Boley at NYG 47. 59-M.Boley pushed ob at DAL 2 for 51 yards (77-T.Smith). Penalty on DAL 77-T.Smith, Horse Collar, 1 yards, enforced at DAL 2.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/bef48cc6-8182-48a3-a046-3cfb5fa9a090.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="10:30" team="NYG">
+      <play id="376d671d-66e6-4f28-82b0-11a6fd4d7aa8" clock="10:30" type="rush" sequence="44" updated="2012-09-06T03:40:08+00:00" side="DAL" yard_line="1" down="1" yfd="1" direction="Right">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="65859588-5da0-4df0-a339-6adf83287078" name="Anthony Spencer" jersey="93" position="LB" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw pushed ob at DAL 3 for -2 yards (93-A.Spencer).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/376d671d-66e6-4f28-82b0-11a6fd4d7aa8.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="2432a66f-33a6-4027-bf77-e34473667fbe" clock="10:05" type="rush" sequence="45" updated="2012-09-06T01:27:28+00:00" side="DAL" yard_line="3" down="2" yfd="3" direction="Left">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="4cf9b18e-a467-4645-a89a-849f7330de24" name="Marcus Spears" jersey="96" position="DE" team="DAL"/>
+          <player id="d3b0253a-b4ff-4d4f-aa82-38c6b368e30b" name="Josh Brent" jersey="92" position="DT" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to DAL 4 for -1 yard (96-M.Spears,92-J.Brent).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/2432a66f-33a6-4027-bf77-e34473667fbe.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="1b39cf5c-b9d9-4af6-ae41-d8c0e231f55b" clock="09:19" type="pass" sequence="46" updated="2012-09-06T01:27:28+00:00" side="DAL" yard_line="4" down="3" yfd="4" formation="Shotgun" direction="Middle" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+          <player id="85a051d3-3f76-411d-a59e-82d04a971c3a" name="Orlando Scandrick" jersey="32" position="CB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 80-V.Cruz.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/1b39cf5c-b9d9-4af6-ae41-d8c0e231f55b.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="524ff682-2e56-49f9-b911-1f1b1debdbc3" clock="09:14" type="fieldgoal" sequence="47" updated="2012-09-06T01:26:58+00:00" side="DAL" yard_line="12" down="4" yfd="5">
+        <participants>
+          <player id="97cebfd1-f7d0-4fc7-b3d8-6d2308e992e3" name="Lawrence Tynes" jersey="9" position="K" team="NYG"/>
+        </participants>
+        <summary>9-L.Tynes 22 yards Field Goal is Good.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/524ff682-2e56-49f9-b911-1f1b1debdbc3.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="09:10" team="DAL">
+      <play id="349beb66-b53f-4a76-b655-64204ee1fe46" clock="09:10" type="kick" sequence="48" updated="2012-09-06T01:29:27+00:00" side="NYG" yard_line="35">
+        <participants>
+          <player id="97cebfd1-f7d0-4fc7-b3d8-6d2308e992e3" name="Lawrence Tynes" jersey="9" position="K" team="NYG"/>
+          <player id="f0085214-6339-4843-a6c9-8ae118422284" name="Felix Jones" jersey="28" position="RB" team="DAL"/>
+          <player id="9e207df9-c9d2-405b-b70f-782fc8ba1c8e" name="Will Hill" jersey="31" position="SAF" team="NYG"/>
+        </participants>
+        <summary>9-L.Tynes kicks 67 yards from NYG 35. 28-F.Jones to DAL 20 for 22 yards (31-W.Hill).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/349beb66-b53f-4a76-b655-64204ee1fe46.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="aadc510b-9242-4b5c-afef-368efc065939" clock="09:05" type="rush" sequence="49" updated="2012-09-06T01:31:32+00:00" side="DAL" yard_line="20" down="1" yfd="10" direction="Right">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="5ce8cd6f-d187-4d23-93c2-9b863dfc7902" name="Michael Coe" jersey="37" position="CB" team="NYG"/>
+          <player id="d2c5d2fa-dd75-444e-b8e0-63c31a3791be" name="Keith Rivers" jersey="55" position="LB" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 22 for 2 yards (37-M.Coe,55-K.Rivers).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/aadc510b-9242-4b5c-afef-368efc065939.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="30a8a511-cf51-4189-8b10-90d3d2022fe3" clock="08:33" type="pass" sequence="50" updated="2012-09-06T01:32:53+00:00" side="DAL" yard_line="22" down="2" yfd="8" direction="Left" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="d688ad2a-0c21-4749-99c6-4e6da588e6a8" name="James Hanna" jersey="84" position="TE" team="DAL"/>
+          <player id="d2c5d2fa-dd75-444e-b8e0-63c31a3791be" name="Keith Rivers" jersey="55" position="LB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 84-J.Hanna. 84-J.Hanna to DAL 32 for 10 yards (55-K.Rivers).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/30a8a511-cf51-4189-8b10-90d3d2022fe3.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="ba5705eb-87f7-4ce1-b128-8a08387cbb23" clock="07:59" type="rush" sequence="51" updated="2012-09-06T01:32:22+00:00" side="DAL" yard_line="32" down="1" yfd="10" direction="Right">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="05492ae2-c310-49b2-927c-58d7d2d7d20c" name="Rocky Bernard" jersey="95" position="DT" team="NYG"/>
+          <player id="e56569f1-eaf4-473b-b92c-fc5c84cc7338" name="Jason Pierre-Paul" jersey="90" position="DE" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 35 for 3 yards (95-R.Bernard,90-J.Pierre-Paul).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/ba5705eb-87f7-4ce1-b128-8a08387cbb23.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="2de651f6-52a0-4f3d-a5bf-7ebc9a5a95b4" clock="07:20" type="penalty" sequence="52" updated="2012-09-06T01:32:57+00:00" side="DAL" yard_line="35" down="2" yfd="7">
+        <participants>
+          <player id="b3eadf6a-2c55-4b53-b5be-74fdb6700627" name="Doug Free" jersey="68" position="OT" team="DAL"/>
+        </participants>
+        <summary>Penalty on DAL 68-D.Free, False start, 5 yards, enforced at DAL 35. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/2de651f6-52a0-4f3d-a5bf-7ebc9a5a95b4.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="6342c116-a4a2-4936-a70c-2391aab23a84" clock="06:52" type="rush" sequence="53" updated="2012-09-06T01:34:02+00:00" side="DAL" yard_line="30" down="2" yfd="12" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="e56569f1-eaf4-473b-b92c-fc5c84cc7338" name="Jason Pierre-Paul" jersey="90" position="DE" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 27 for -3 yards (90-J.Pierre-Paul).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/6342c116-a4a2-4936-a70c-2391aab23a84.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="8e126117-fdcc-4ce9-a3b4-b80917fd95cb" clock="06:05" type="pass" sequence="54" updated="2012-09-06T01:35:40+00:00" side="DAL" yard_line="27" down="3" yfd="15" formation="Shotgun" direction="Right" distance="Long">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+          <player id="5ce8cd6f-d187-4d23-93c2-9b863dfc7902" name="Michael Coe" jersey="37" position="CB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 85-K.Ogletree. 85-K.Ogletree to DAL 36 for 9 yards (37-M.Coe).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/8e126117-fdcc-4ce9-a3b4-b80917fd95cb.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="33ed7e88-c505-4581-b5a0-c50760d99ef8" clock="05:28" type="punt" sequence="55" updated="2012-09-06T01:35:41+00:00" side="DAL" yard_line="36" down="4" yfd="6">
+        <participants>
+          <player id="4d1f4c44-3666-4014-95fc-4b0013b6d9a5" name="Chris Jones" jersey="6" position="P" team="DAL"/>
+          <player id="22eeb9ce-32a5-4728-bf30-06bd300b9365" name="Domenik Hixon" jersey="87" position="WR" team="NYG"/>
+        </participants>
+        <summary>6-C.Jones punts 48 yards from DAL 36 to NYG 16, fair catch by 87-D.Hixon.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/33ed7e88-c505-4581-b5a0-c50760d99ef8.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="05:18" team="NYG">
+      <play id="de621bb5-ca85-455b-9ee7-a3ea8eb3c7bd" clock="05:18" type="rush" sequence="56" updated="2012-09-06T01:38:10+00:00" side="NYG" yard_line="16" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="6fbd5f30-db84-4c38-98ea-69631bdbc53f" name="Bruce Carter" jersey="54" position="LB" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to NYG 16 for no gain (54-B.Carter).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/de621bb5-ca85-455b-9ee7-a3ea8eb3c7bd.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="e705995b-ef9d-4607-8754-904ac5023790" clock="04:37" type="rush" sequence="57" updated="2012-09-06T01:39:18+00:00" side="NYG" yard_line="16" down="2" yfd="10" direction="Right">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="31450578-c69a-4fd0-a09e-49506b50baa0" name="Kenyon Coleman" jersey="99" position="DE" team="DAL"/>
+          <player id="65859588-5da0-4df0-a339-6adf83287078" name="Anthony Spencer" jersey="93" position="LB" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to NYG 18 for 2 yards (99-K.Coleman,93-A.Spencer).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/e705995b-ef9d-4607-8754-904ac5023790.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="9293b376-5526-413c-96fe-e85bdd36be76" clock="03:50" type="pass" sequence="58" updated="2012-09-06T01:39:44+00:00" side="NYG" yard_line="18" down="3" yfd="8" formation="Shotgun" direction="Right" distance="Long">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="0ca741f8-58bd-4933-9d5c-0e04de3f4cff" name="Martellus Bennett" jersey="85" position="TE" team="NYG"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 85-M.Bennett.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/9293b376-5526-413c-96fe-e85bdd36be76.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="13c6ed51-ce56-4657-9559-8047526ba08a" clock="03:42" type="punt" sequence="59" updated="2012-09-06T01:40:19+00:00" side="NYG" yard_line="18" down="4" yfd="8">
+        <participants>
+          <player id="2d7263cd-2437-46a8-bca6-a224576e3063" name="Steve Weatherford" jersey="5" position="P" team="NYG"/>
+          <player id="b84fb536-9705-45a9-b652-92a33578ac48" name="Dez Bryant" jersey="88" position="WR" team="DAL"/>
+        </participants>
+        <summary>5-S.Weatherford punts 54 yards from NYG 18. 88-D.Bryant runs ob at DAL 27 for -1 yard.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/13c6ed51-ce56-4657-9559-8047526ba08a.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="03:34" team="DAL">
+      <play id="933336de-cc8d-4f57-ae4b-0cd6f4e683c4" clock="03:34" type="penalty" sequence="60" updated="2012-09-06T01:42:08+00:00" side="DAL" yard_line="27" down="1" yfd="10">
+        <participants>
+          <player id="c3f2ea91-98d6-4d37-b5bd-3c7ac07e5b24" name="Tyron Smith" jersey="77" position="T" team="DAL"/>
+        </participants>
+        <summary>Penalty on DAL 77-T.Smith, False start, 5 yards, enforced at DAL 27. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/933336de-cc8d-4f57-ae4b-0cd6f4e683c4.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="8e202f54-7e4d-41d5-98da-a3e4c69e9af9" clock="03:34" type="pass" sequence="61" updated="2012-09-06T01:44:13+00:00" side="DAL" yard_line="22" down="1" yfd="15" direction="Left" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="b84fb536-9705-45a9-b652-92a33578ac48" name="Dez Bryant" jersey="88" position="WR" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo complete to 88-D.Bryant. 88-D.Bryant runs ob at DAL 35 for 13 yards.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/8e202f54-7e4d-41d5-98da-a3e4c69e9af9.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="009de798-cc76-4135-9170-6d9c39118d92" clock="03:11" type="pass" sequence="62" updated="2012-09-06T01:44:03+00:00" side="DAL" yard_line="35" down="2" yfd="2" direction="Left" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="e38c9b1b-7c51-48a2-ac1d-a752502e8930" name="Jason Witten" jersey="82" position="TE" team="DAL"/>
+          <player id="e53ed040-6008-4de1-b5d4-6f69f85ea9bd" name="Chase Blackburn" jersey="93" position="LB" team="NYG"/>
+          <player id="5ce8cd6f-d187-4d23-93c2-9b863dfc7902" name="Michael Coe" jersey="37" position="CB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 82-J.Witten. 82-J.Witten to DAL 38 for 3 yards (93-C.Blackburn,37-M.Coe).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/009de798-cc76-4135-9170-6d9c39118d92.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="2a42f2e1-aa46-4618-93d8-937d1851be10" clock="02:34" type="rush" sequence="63" updated="2012-09-06T01:45:21+00:00" side="DAL" yard_line="38" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="391881cd-4f9f-49c8-ba78-10ce74728f6d" name="Kenny Phillips" jersey="21" position="SAF" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 47 for 9 yards (21-K.Phillips).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/2a42f2e1-aa46-4618-93d8-937d1851be10.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="111ca3b7-a08f-4495-ad5c-96708c748708" clock="02:04" type="pass" sequence="64" updated="2012-09-06T01:45:08+00:00" side="DAL" yard_line="47" down="2" yfd="1" direction="Right" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo incomplete. Intended for 85-K.Ogletree.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/111ca3b7-a08f-4495-ad5c-96708c748708.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock="01:59" type="twominuteswarning" sequence="65" updated="2012-09-06T01:46:20+00:00">
+        <summary>Two-Minute Warning</summary>
+      </event>
+      <play id="6b7b7b58-7a03-436b-a936-06fe58e8a5d3" clock="01:59" type="pass" sequence="66" updated="2012-09-06T01:49:02+00:00" side="DAL" yard_line="47" down="3" yfd="1" formation="Shotgun" direction="Right" distance="Long">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="b84fb536-9705-45a9-b652-92a33578ac48" name="Dez Bryant" jersey="88" position="WR" team="DAL"/>
+          <player id="391881cd-4f9f-49c8-ba78-10ce74728f6d" name="Kenny Phillips" jersey="21" position="SAF" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 88-D.Bryant. 88-D.Bryant to NYG 15 for 38 yards (21-K.Phillips).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/6b7b7b58-7a03-436b-a936-06fe58e8a5d3.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="a576c69d-6aa4-41dd-ac88-8ce0442bc148" clock="01:15" type="pass" sequence="67" updated="2012-09-06T01:49:32+00:00" side="NYG" yard_line="15" down="1" yfd="10" formation="Shotgun" direction="Right" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+          <player id="1e31bf53-67a4-4d8b-867a-af951c00f6d2" name="Jacquian Williams" jersey="57" position="LB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 85-K.Ogletree. 85-K.Ogletree to NYG 10 for 5 yards (57-J.Williams).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/a576c69d-6aa4-41dd-ac88-8ce0442bc148.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock="01:07" type="teamtimeout" sequence="68" updated="2012-09-06T01:50:40+00:00">
+        <timeout number="1"/>
+        <summary>Timeout #1 by DAL at 01:07.</summary>
+      </event>
+      <play id="23bb30fd-bcd2-4ebd-96f5-002a18e686ee" clock="01:07" type="pass" sequence="69" updated="2012-09-06T01:50:57+00:00" side="NYG" yard_line="10" down="2" yfd="5" formation="Shotgun" direction="Middle" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo complete to 85-K.Ogletree. 85-K.Ogletree runs 10 yards for a touchdown.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/23bb30fd-bcd2-4ebd-96f5-002a18e686ee.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="3168244d-af69-44df-a401-55e02569e000" clock="01:01" type="extrapoint" sequence="70" updated="2012-09-06T01:51:29+00:00" side="NYG" yard_line="7">
+        <participants>
+          <player id="beb64618-614c-49f7-a3aa-c0c75b7839ea" name="Dan Bailey" jersey="5" position="K" team="DAL"/>
+        </participants>
+        <summary>5-D.Bailey extra point is good.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/3168244d-af69-44df-a401-55e02569e000.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="01:01" team="NYG">
+      <play id="501b1ef9-b385-4262-af43-20b32ce45c5f" clock="01:01" type="kick" sequence="71" updated="2012-09-06T01:54:04+00:00" side="DAL" yard_line="35">
+        <participants>
+          <player id="beb64618-614c-49f7-a3aa-c0c75b7839ea" name="Dan Bailey" jersey="5" position="K" team="DAL"/>
+          <player id="a230a959-4fba-43cd-92a0-6552766c2bbf" name="David Wilson" jersey="22" position="RB" team="NYG"/>
+          <player id="ad9a6262-7df3-41a8-9753-b89866f5cd0e" name="Barry Church" jersey="42" position="SAF" team="DAL"/>
+        </participants>
+        <summary>5-D.Bailey kicks 67 yards from DAL 35. 22-D.Wilson to NYG 30 for 32 yards (42-B.Church).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/501b1ef9-b385-4262-af43-20b32ce45c5f.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="0aa37cb4-915a-45e5-bee3-d3c928dc18a5" clock=":54" type="pass" sequence="72" updated="2012-09-06T01:54:06+00:00" side="NYG" yard_line="30" down="1" yfd="10" formation="Shotgun" direction="Left" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 80-V.Cruz.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/0aa37cb4-915a-45e5-bee3-d3c928dc18a5.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="f9d8d711-4a52-420c-bf84-cc6f70c3b8a5" clock=":48" type="pass" sequence="73" updated="2012-09-06T01:57:20+00:00" side="NYG" yard_line="30" down="2" yfd="10" formation="Shotgun">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="f5fa509a-fc67-4c74-be9f-cb9cc8815a6f" name="DeMarcus Ware" jersey="94" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning sacked at NYG 24 for -6 yards (94-D.Ware).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/f9d8d711-4a52-420c-bf84-cc6f70c3b8a5.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="e74b1625-4268-415e-af7a-afb58975b61f" clock=":04" type="rush" sequence="74" updated="2012-09-06T01:57:13+00:00" side="NYG" yard_line="24" down="3" yfd="16" formation="Shotgun" direction="Middle">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="65859588-5da0-4df0-a339-6adf83287078" name="Anthony Spencer" jersey="93" position="LB" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to NYG 29 for 5 yards (93-A.Spencer).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/e74b1625-4268-415e-af7a-afb58975b61f.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock=":00" type="quarterend" sequence="75" updated="2012-09-06T01:56:05+00:00">
+        <summary>End of 1st Half</summary>
+      </event>
+    </drive>
+  </quarter>
+  <quarter number="3">
+    <drive clock="15:00" team="DAL">
+      <play id="4b2b315b-11b1-48f4-a979-b4a765c364fc" clock="15:00" type="kick" sequence="76" updated="2012-09-06T02:12:05+00:00" side="NYG" yard_line="35" down="4" yfd="11">
+        <participants>
+          <player id="97cebfd1-f7d0-4fc7-b3d8-6d2308e992e3" name="Lawrence Tynes" jersey="9" position="K" team="NYG"/>
+          <player id="f0085214-6339-4843-a6c9-8ae118422284" name="Felix Jones" jersey="28" position="RB" team="DAL"/>
+        </participants>
+        <summary>9-L.Tynes kicks 73 yards from NYG 35 to DAL End Zone. 28-F.Jones, touchback.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/4b2b315b-11b1-48f4-a979-b4a765c364fc.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="c4b43268-c9cf-43ee-bebf-e1504259a4da" clock="15:00" type="pass" sequence="77" updated="2012-09-06T02:12:36+00:00" side="DAL" yard_line="20" down="1" yfd="10" direction="Right" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="8f3be89a-281c-4c5c-bf71-92845c46f032" name="Mathias Kiwanuka" jersey="94" position="LB" team="NYG"/>
+          <player id="bbfb80d3-910b-4be2-be73-3dab3c5ce398" name="Justin Tuck" jersey="91" position="DE" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 29-D.Murray. 29-D.Murray to DAL 29 for 9 yards (94-M.Kiwanuka,91-J.Tuck).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/c4b43268-c9cf-43ee-bebf-e1504259a4da.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="a762d103-3ead-428e-93de-f950cdd0ee8a" clock="14:25" type="rush" sequence="78" updated="2012-09-06T02:13:06+00:00" side="DAL" yard_line="29" down="2" yfd="1" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="e56569f1-eaf4-473b-b92c-fc5c84cc7338" name="Jason Pierre-Paul" jersey="90" position="DE" team="NYG"/>
+          <player id="1e31bf53-67a4-4d8b-867a-af951c00f6d2" name="Jacquian Williams" jersey="57" position="LB" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 31 for 2 yards (90-J.Pierre-Paul,57-J.Williams).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/a762d103-3ead-428e-93de-f950cdd0ee8a.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="08466a40-a647-4dcb-b89c-5fda07949299" clock="13:42" type="pass" sequence="79" updated="2012-09-06T02:13:20+00:00" side="DAL" yard_line="31" down="1" yfd="10" direction="Left" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="84d8e40d-8123-4c0e-a3c1-3d86013d48c9" name="Antrel Rolle" jersey="26" position="SAF" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 29-D.Murray. 29-D.Murray to DAL 31 for no gain (26-A.Rolle).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/08466a40-a647-4dcb-b89c-5fda07949299.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="bf3bb2f4-6b33-4f7b-81c9-d1f05666f215" clock="13:00" type="rush" sequence="80" updated="2012-09-06T02:14:41+00:00" side="DAL" yard_line="31" down="2" yfd="10" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="84d8e40d-8123-4c0e-a3c1-3d86013d48c9" name="Antrel Rolle" jersey="26" position="SAF" team="NYG"/>
+          <player id="1e31bf53-67a4-4d8b-867a-af951c00f6d2" name="Jacquian Williams" jersey="57" position="LB" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 40 for 9 yards (26-A.Rolle,57-J.Williams).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/bf3bb2f4-6b33-4f7b-81c9-d1f05666f215.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="1807fdcb-d5a0-48c4-8fcf-1aeaf4c5afa4" clock="12:08" type="rush" sequence="81" updated="2012-09-06T02:23:21+00:00" side="DAL" yard_line="40" down="3" yfd="1" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="84d8e40d-8123-4c0e-a3c1-3d86013d48c9" name="Antrel Rolle" jersey="26" position="SAF" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 44 for 4 yards (26-A.Rolle).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/1807fdcb-d5a0-48c4-8fcf-1aeaf4c5afa4.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="ea435931-8f08-4979-b67b-26775bac9c2c" clock="11:27" type="pass" sequence="82" updated="2012-09-06T02:38:52+00:00" side="DAL" yard_line="44" down="1" yfd="10" direction="Middle" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="f0085214-6339-4843-a6c9-8ae118422284" name="Felix Jones" jersey="28" position="RB" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo incomplete. Intended for 28-F.Jones.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/ea435931-8f08-4979-b67b-26775bac9c2c.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="ce53b6b6-7744-4dc9-99da-f6c1112030f4" clock="11:20" type="pass" sequence="83" updated="2012-09-06T02:38:56+00:00" side="DAL" yard_line="44" down="2" yfd="10" direction="Right" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="b84fb536-9705-45a9-b652-92a33578ac48" name="Dez Bryant" jersey="88" position="WR" team="DAL"/>
+          <player id="84d8e40d-8123-4c0e-a3c1-3d86013d48c9" name="Antrel Rolle" jersey="26" position="SAF" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 88-D.Bryant. 88-D.Bryant to NYG 40 for 16 yards (26-A.Rolle).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/ce53b6b6-7744-4dc9-99da-f6c1112030f4.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="b499ca3b-e332-40ed-8f1a-03e72c2c90bf" clock="10:42" type="pass" sequence="84" updated="2012-09-06T02:17:05+00:00" side="NYG" yard_line="40" down="1" yfd="10" direction="Left" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="e38c9b1b-7c51-48a2-ac1d-a752502e8930" name="Jason Witten" jersey="82" position="TE" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo incomplete. Intended for 82-J.Witten.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/b499ca3b-e332-40ed-8f1a-03e72c2c90bf.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="7ab8e946-cd01-4ac4-85ad-4cb0ff304df6" clock="10:32" type="pass" sequence="85" updated="2012-09-06T02:17:27+00:00" side="NYG" yard_line="40" down="2" yfd="10" direction="Right" distance="Long">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo complete to 85-K.Ogletree. 85-K.Ogletree runs 40 yards for a touchdown.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/7ab8e946-cd01-4ac4-85ad-4cb0ff304df6.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="849435a4-3561-432c-8fe3-0e69c77014f6" clock="10:24" type="extrapoint" sequence="86" updated="2012-09-06T02:20:27+00:00" side="NYG" yard_line="7">
+        <participants>
+          <player id="beb64618-614c-49f7-a3aa-c0c75b7839ea" name="Dan Bailey" jersey="5" position="K" team="DAL"/>
+        </participants>
+        <summary>5-D.Bailey extra point is good.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/849435a4-3561-432c-8fe3-0e69c77014f6.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="10:24" team="NYG">
+      <play id="d530d8e8-279d-453e-bfea-011d035f59a1" clock="10:24" type="kick" sequence="87" updated="2012-09-06T02:21:35+00:00" side="DAL" yard_line="35">
+        <participants>
+          <player id="beb64618-614c-49f7-a3aa-c0c75b7839ea" name="Dan Bailey" jersey="5" position="K" team="DAL"/>
+          <player id="53747116-98f0-4405-91da-f25b1d938813" name="Andre Brown" jersey="35" position="RB" team="NYG"/>
+          <player id="d688ad2a-0c21-4749-99c6-4e6da588e6a8" name="James Hanna" jersey="84" position="TE" team="DAL"/>
+          <player id="6371b8a8-a1cf-4ff4-b900-0203bbf004e0" name="Alex Albright" jersey="55" position="LB" team="DAL"/>
+        </participants>
+        <summary>5-D.Bailey kicks 61 yards from DAL 35. 35-A.Brown to NYG 11 for 7 yards (84-J.Hanna,55-A.Albright).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/d530d8e8-279d-453e-bfea-011d035f59a1.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="6da72d8e-4404-46af-8519-9574bbca7e5a" clock="10:19" type="pass" sequence="88" updated="2012-09-06T02:23:30+00:00" side="NYG" yard_line="11" down="1" yfd="10" formation="Shotgun" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="22eeb9ce-32a5-4728-bf30-06bd300b9365" name="Domenik Hixon" jersey="87" position="WR" team="NYG"/>
+          <player id="6fbd5f30-db84-4c38-98ea-69631bdbc53f" name="Bruce Carter" jersey="54" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 87-D.Hixon. 87-D.Hixon to NYG 23 for 12 yards (54-B.Carter).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/6da72d8e-4404-46af-8519-9574bbca7e5a.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="710ad5a3-0973-40a6-8de2-3b965e52e5bf" clock="09:45" type="rush" sequence="89" updated="2012-09-06T02:24:42+00:00" side="NYG" yard_line="23" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="75f4e314-a25d-4833-b39e-02014853d7bb" name="Jason Hatcher" jersey="97" position="DT" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to NYG 25 for 2 yards (97-J.Hatcher).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/710ad5a3-0973-40a6-8de2-3b965e52e5bf.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="d6ecc73b-999f-415a-92d2-053422f7a863" clock="09:11" type="pass" sequence="90" updated="2012-09-06T02:26:19+00:00" side="NYG" yard_line="25" down="2" yfd="8" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="0ca741f8-58bd-4933-9d5c-0e04de3f4cff" name="Martellus Bennett" jersey="85" position="TE" team="NYG"/>
+          <player id="65859588-5da0-4df0-a339-6adf83287078" name="Anthony Spencer" jersey="93" position="LB" team="DAL"/>
+          <player id="ad9a6262-7df3-41a8-9753-b89866f5cd0e" name="Barry Church" jersey="42" position="SAF" team="DAL"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+        </participants>
+        <summary>10-E.Manning complete to 85-M.Bennett. 85-M.Bennett pushed ob at NYG 37 for 12 yards (93-A.Spencer,42-B.Church). Penalty on NYG 80-V.Cruz, Illegal block in the back, 10 yards, enforced at NYG 37.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/d6ecc73b-999f-415a-92d2-053422f7a863.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="f91c38ae-b550-4933-a74a-cf53b9e12ee6" clock="08:46" type="pass" sequence="91" updated="2012-09-06T02:27:02+00:00" side="NYG" yard_line="27" down="2" yfd="6" formation="Shotgun" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 44-A.Bradshaw. 44-A.Bradshaw to NYG 33 for 6 yards (50-S.Lee).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/f91c38ae-b550-4933-a74a-cf53b9e12ee6.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="92957f09-0745-4f88-82f0-c38ffebd72a5" clock="07:52" type="pass" sequence="92" updated="2012-09-06T02:27:16+00:00" side="NYG" yard_line="33" down="1" yfd="10" direction="Left" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="23d7cd82-d526-4fd8-8f8a-97885f2bc926" name="Hakeem Nicks" jersey="88" position="WR" team="NYG"/>
+          <player id="e0d47951-fea7-4f2a-a936-f4d758ea6b83" name="Morris Claiborne" jersey="24" position="CB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 88-H.Nicks. 88-H.Nicks to NYG 45 for 12 yards (24-M.Claiborne).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/92957f09-0745-4f88-82f0-c38ffebd72a5.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="f67a8364-a6d5-40ad-ad91-8b596633c98d" clock="07:20" type="rush" sequence="93" updated="2012-09-06T02:27:47+00:00" side="NYG" yard_line="45" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="c50caa8d-a858-46ad-b4af-9201753d2725" name="Gerald Sensabaugh" jersey="43" position="SAF" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw pushed ob at NYG 50 for 5 yards (43-G.Sensabaugh).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/f67a8364-a6d5-40ad-ad91-8b596633c98d.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="e065f346-8fd4-456d-a0aa-d1b9dd753322" clock="06:47" type="pass" sequence="94" updated="2012-09-06T02:29:18+00:00" side="NYG" yard_line="50" down="2" yfd="5" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="c25e9222-b7be-4ab9-ab3c-81fa72897e7c" name="Victor Butler" jersey="57" position="LB" team="DAL"/>
+          <player id="d3ed4b39-7858-405d-b021-348bd57832dd" name="Henry Hynoski" jersey="45" position="RB" team="NYG"/>
+          <player id="65859588-5da0-4df0-a339-6adf83287078" name="Anthony Spencer" jersey="93" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 45-H.Hynoski. 45-H.Hynoski to DAL 49 for 1 yard (93-A.Spencer).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/e065f346-8fd4-456d-a0aa-d1b9dd753322.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="58f79d37-a9b6-4d70-a066-5aae699bd141" clock="06:09" type="pass" sequence="95" updated="2012-09-06T02:29:51+00:00" side="DAL" yard_line="49" down="3" yfd="4" formation="Shotgun" direction="Left" distance="Long">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="22eeb9ce-32a5-4728-bf30-06bd300b9365" name="Domenik Hixon" jersey="87" position="WR" team="NYG"/>
+          <player id="7d2f7624-2876-4e64-b29c-005fa1e08232" name="Mana Silva" jersey="36" position="SAF" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 87-D.Hixon. 87-D.Hixon to DAL 10 for 39 yards (36-M.Silva).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/58f79d37-a9b6-4d70-a066-5aae699bd141.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="03a77e6e-8377-47fb-8b84-38ae40a03ed6" clock="05:19" type="rush" sequence="96" updated="2012-09-06T02:29:59+00:00" side="DAL" yard_line="10" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+        </participants>
+        <summary>44-A.Bradshaw runs 10 yards for a touchdown.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/03a77e6e-8377-47fb-8b84-38ae40a03ed6.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="da2d5acd-79e8-49c9-8e7d-0e861d1abb38" clock="05:13" type="extrapoint" sequence="97" updated="2012-09-06T02:29:42+00:00" side="DAL" yard_line="7">
+        <participants>
+          <player id="97cebfd1-f7d0-4fc7-b3d8-6d2308e992e3" name="Lawrence Tynes" jersey="9" position="K" team="NYG"/>
+        </participants>
+        <summary>9-L.Tynes extra point is good.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/da2d5acd-79e8-49c9-8e7d-0e861d1abb38.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="05:11" team="DAL">
+      <play id="329032a3-f7c4-4616-976c-82a8f6fed492" clock="05:11" type="kick" sequence="98" updated="2012-09-06T03:43:35+00:00" side="NYG" yard_line="35">
+        <participants>
+          <player id="97cebfd1-f7d0-4fc7-b3d8-6d2308e992e3" name="Lawrence Tynes" jersey="9" position="K" team="NYG"/>
+          <player id="f0085214-6339-4843-a6c9-8ae118422284" name="Felix Jones" jersey="28" position="RB" team="DAL"/>
+          <player id="1e31bf53-67a4-4d8b-867a-af951c00f6d2" name="Jacquian Williams" jersey="57" position="LB" team="NYG"/>
+          <player id="284f5b6f-cb48-42b6-97be-d1957e4d0bdb" name="Spencer Paysinger" jersey="52" position="LB" team="NYG"/>
+        </participants>
+        <summary>9-L.Tynes kicks 70 yards from NYG 35. 28-F.Jones to DAL 20 for 25 yards (57-J.Williams,52-S.Paysinger).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/329032a3-f7c4-4616-976c-82a8f6fed492.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="2bc22993-3564-4b0f-9959-3895d2c44013" clock="05:04" type="pass" sequence="99" updated="2012-09-06T02:35:19+00:00" side="DAL" yard_line="20" down="1" yfd="10" direction="Middle" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="e38c9b1b-7c51-48a2-ac1d-a752502e8930" name="Jason Witten" jersey="82" position="TE" team="DAL"/>
+          <player id="1e31bf53-67a4-4d8b-867a-af951c00f6d2" name="Jacquian Williams" jersey="57" position="LB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 82-J.Witten. 82-J.Witten to DAL 27 for 7 yards (57-J.Williams).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/2bc22993-3564-4b0f-9959-3895d2c44013.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="1d0bdfa1-5419-4fbf-ab2d-719dfac215a1" clock="04:35" type="rush" sequence="100" updated="2012-09-06T02:36:35+00:00" side="DAL" yard_line="27" down="2" yfd="3" direction="Right">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="84d8e40d-8123-4c0e-a3c1-3d86013d48c9" name="Antrel Rolle" jersey="26" position="SAF" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to NYG 25 for 48 yards (26-A.Rolle).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/1d0bdfa1-5419-4fbf-ab2d-719dfac215a1.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="46836f90-c93c-481e-aeb8-b1638143c9f6" clock="03:42" type="pass" sequence="101" updated="2012-09-06T02:37:30+00:00" side="NYG" yard_line="25" down="1" yfd="10" direction="Middle" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="c43cf6a1-8faa-4f95-aa2a-f1aac3ffe103" name="John Phillips" jersey="89" position="TE" team="DAL"/>
+          <player id="e53ed040-6008-4de1-b5d4-6f69f85ea9bd" name="Chase Blackburn" jersey="93" position="LB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 89-J.Phillips. 89-J.Phillips to NYG 19 for 6 yards (93-C.Blackburn).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/46836f90-c93c-481e-aeb8-b1638143c9f6.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock="02:53" type="teamtimeout" sequence="102" updated="2012-09-06T02:37:15+00:00">
+        <timeout number="1"/>
+        <summary>Timeout #1 by DAL at 02:53.</summary>
+      </event>
+      <play id="6169e3b4-407c-42e0-b786-ac00779f97ff" clock="02:53" type="rush" sequence="103" updated="2012-09-06T02:40:31+00:00" side="NYG" yard_line="19" down="2" yfd="4" formation="Shotgun" direction="Left">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5ce8cd6f-d187-4d23-93c2-9b863dfc7902" name="Michael Coe" jersey="37" position="CB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo scrambles to the to NYG 10 for 9 yards (37-M.Coe).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/6169e3b4-407c-42e0-b786-ac00779f97ff.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="abd6b8ab-d544-495c-b3ea-139dd386437c" clock="02:20" type="rush" sequence="104" updated="2012-09-06T02:41:22+00:00" side="NYG" yard_line="10" down="1" yfd="10" direction="Middle">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="d2c5d2fa-dd75-444e-b8e0-63c31a3791be" name="Keith Rivers" jersey="55" position="LB" team="NYG"/>
+          <player id="e53ed040-6008-4de1-b5d4-6f69f85ea9bd" name="Chase Blackburn" jersey="93" position="LB" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to NYG 6 for 4 yards (55-K.Rivers,93-C.Blackburn).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/abd6b8ab-d544-495c-b3ea-139dd386437c.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="5719e122-38a4-4d62-aa01-59c27102fbdc" clock="01:33" type="pass" sequence="105" updated="2012-09-06T02:41:44+00:00" side="NYG" yard_line="6" down="2" yfd="6" formation="Shotgun">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="6c48b2a7-924e-43ec-bcd9-f1cda06b2332" name="Linval Joseph" jersey="97" position="DT" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo sacked at NYG 15 for -9 yards (97-L.Joseph).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/5719e122-38a4-4d62-aa01-59c27102fbdc.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="6decbb3a-54ba-4b71-9e91-ee18cdfb3bad" clock=":53" type="pass" sequence="106" updated="2012-09-06T02:43:00+00:00" side="NYG" yard_line="15" down="3" yfd="15" formation="Shotgun" direction="Middle" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+          <player id="5ce8cd6f-d187-4d23-93c2-9b863dfc7902" name="Michael Coe" jersey="37" position="CB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo incomplete. Intended for 85-K.Ogletree.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/6decbb3a-54ba-4b71-9e91-ee18cdfb3bad.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="e396d55d-a16b-419f-b6bf-52a2f34a39f9" clock=":45" type="fieldgoal" sequence="107" updated="2012-09-06T02:42:40+00:00" side="NYG" yard_line="23" down="4" yfd="15">
+        <participants>
+          <player id="beb64618-614c-49f7-a3aa-c0c75b7839ea" name="Dan Bailey" jersey="5" position="K" team="DAL"/>
+        </participants>
+        <summary>5-D.Bailey 33 yards Field Goal is Good.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/e396d55d-a16b-419f-b6bf-52a2f34a39f9.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock=":40" team="NYG">
+      <play id="a1b00f5c-2219-4d6e-8c47-497dce3680fc" clock=":40" type="kick" sequence="108" updated="2012-09-06T02:44:57+00:00" side="DAL" yard_line="35">
+        <participants>
+          <player id="beb64618-614c-49f7-a3aa-c0c75b7839ea" name="Dan Bailey" jersey="5" position="K" team="DAL"/>
+          <player id="53747116-98f0-4405-91da-f25b1d938813" name="Andre Brown" jersey="35" position="RB" team="NYG"/>
+          <player id="7d2f7624-2876-4e64-b29c-005fa1e08232" name="Mana Silva" jersey="36" position="SAF" team="DAL"/>
+        </participants>
+        <summary>5-D.Bailey kicks 69 yards from DAL 35. 35-A.Brown to NYG 18 for 22 yards (36-M.Silva).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/a1b00f5c-2219-4d6e-8c47-497dce3680fc.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="29cd53e2-a073-4318-b88d-63e201634d6c" clock=":34" type="rush" sequence="109" updated="2012-09-06T02:45:20+00:00" side="NYG" yard_line="18" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="4cf9b18e-a467-4645-a89a-849f7330de24" name="Marcus Spears" jersey="96" position="DE" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to NYG 23 for 5 yards (96-M.Spears).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/29cd53e2-a073-4318-b88d-63e201634d6c.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock=":00" type="quarterend" sequence="110" updated="2012-09-06T02:45:25+00:00">
+        <summary>End of Quarter</summary>
+      </event>
+    </drive>
+  </quarter>
+  <quarter number="4">
+    <drive clock=":40" team="NYG">
+      <play id="3fb0c9e0-90c0-4b3a-824c-2f24b70ff584" clock="15:00" type="pass" sequence="111" updated="2012-09-06T02:48:35+00:00" side="NYG" yard_line="23" down="2" yfd="5" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 80-V.Cruz.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/3fb0c9e0-90c0-4b3a-824c-2f24b70ff584.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="ffa75388-5342-4ae1-935d-8a44f6bea9c1" clock="14:55" type="pass" sequence="112" updated="2012-09-06T02:51:14+00:00" side="NYG" yard_line="23" down="3" yfd="5" formation="Shotgun" direction="Left" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="75f4e314-a25d-4833-b39e-02014853d7bb" name="Jason Hatcher" jersey="97" position="DT" team="DAL"/>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 44-A.Bradshaw. Penalty on DAL 97-J.Hatcher, Roughing the passer, 15 yards, enforced at NYG 23. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/ffa75388-5342-4ae1-935d-8a44f6bea9c1.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="06db0a06-3274-40c8-8fb6-ffdabae34f96" clock="14:49" type="rush" sequence="113" updated="2012-09-06T02:51:34+00:00" side="NYG" yard_line="38" down="1" yfd="10" direction="Right">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="6fbd5f30-db84-4c38-98ea-69631bdbc53f" name="Bruce Carter" jersey="54" position="LB" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to NYG 38 for no gain (54-B.Carter).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/06db0a06-3274-40c8-8fb6-ffdabae34f96.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="5533ffde-b1b0-42ff-9a31-9278e4f69f0b" clock="14:10" type="pass" sequence="114" updated="2012-09-06T02:52:43+00:00" side="NYG" yard_line="38" down="2" yfd="10" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="fe74dd16-c439-4cf9-89c2-958929fb6fa8" name="Bear Pascoe" jersey="86" position="TE" team="NYG"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 86-B.Pascoe. 86-B.Pascoe to NYG 44 for 6 yards (50-S.Lee).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/5533ffde-b1b0-42ff-9a31-9278e4f69f0b.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="9bf90866-72c5-413d-8c5a-f10106cba6d5" clock="13:28" type="pass" sequence="115" updated="2012-09-06T02:53:07+00:00" side="NYG" yard_line="44" down="3" yfd="4" formation="Shotgun">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="75f4e314-a25d-4833-b39e-02014853d7bb" name="Jason Hatcher" jersey="97" position="DT" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning sacked at NYG 39 for -5 yards (97-J.Hatcher).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/9bf90866-72c5-413d-8c5a-f10106cba6d5.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="4c96ae7e-6454-49c2-b65c-2df463bbf7e5" clock="13:17" type="punt" sequence="116" updated="2012-09-06T02:54:23+00:00" side="NYG" yard_line="39" down="4" yfd="9">
+        <participants>
+          <player id="2d7263cd-2437-46a8-bca6-a224576e3063" name="Steve Weatherford" jersey="5" position="P" team="NYG"/>
+          <player id="5ed2cea8-e0c6-482c-9ee1-548c06612226" name="Dwayne Harris" jersey="17" position="WR" team="DAL"/>
+          <player id="5cc16769-2495-4aca-b2d8-22f999238846" name="Stevie Brown" jersey="27" position="SAF" team="NYG"/>
+        </participants>
+        <summary>5-S.Weatherford punts 46 yards from NYG 39. 17-D.Harris to DAL 18 for 3 yards (27-S.Brown).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/4c96ae7e-6454-49c2-b65c-2df463bbf7e5.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="13:03" team="DAL">
+      <play id="5ce74544-134e-4f3a-ab04-e2282eee5ae7" clock="13:03" type="rush" sequence="117" updated="2012-09-06T02:56:47+00:00" side="DAL" yard_line="18" down="1" yfd="10" direction="Middle">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="c6682daa-01d2-4924-8aa8-ef2f44c2a2fb" name="Justin Tryon" jersey="30" position="CB" team="NYG"/>
+          <player id="9d02be75-b625-46fd-98a2-dab2ed5dc479" name="Markus Kuhn " jersey="78" position="DT" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 23 for 5 yards (30-J.Tryon,78-M.Kuhn).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/5ce74544-134e-4f3a-ab04-e2282eee5ae7.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="f251c759-1ee9-49cf-b1b5-ccaedd564115" clock="12:14" type="penalty" sequence="118" updated="2012-09-06T02:57:13+00:00" side="DAL" yard_line="23" down="2" yfd="5" formation="Shotgun">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+        </participants>
+        <summary>Penalty on DAL 9-T.Romo, Delay of game, 5 yards, enforced at DAL 23. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/f251c759-1ee9-49cf-b1b5-ccaedd564115.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="67d79f8d-2a09-49d7-9b9e-86157c020490" clock="12:00" type="pass" sequence="119" updated="2012-09-06T02:58:31+00:00" side="DAL" yard_line="18" down="2" yfd="10" formation="Shotgun" direction="Left" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+          <player id="84d8e40d-8123-4c0e-a3c1-3d86013d48c9" name="Antrel Rolle" jersey="26" position="SAF" team="NYG"/>
+          <player id="c6682daa-01d2-4924-8aa8-ef2f44c2a2fb" name="Justin Tryon" jersey="30" position="CB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 85-K.Ogletree. 85-K.Ogletree to DAL 32 for 14 yards (26-A.Rolle,30-J.Tryon).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/67d79f8d-2a09-49d7-9b9e-86157c020490.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="01c7daf1-9d0c-4cf7-a28f-a11e531b0aa2" clock="11:25" type="rush" sequence="120" updated="2012-09-06T02:58:41+00:00" side="DAL" yard_line="32" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="35309193-c21f-4b9a-9f33-2162e8c817b6" name="Michael Boley" jersey="59" position="LB" team="NYG"/>
+          <player id="bbfb80d3-910b-4be2-be73-3dab3c5ce398" name="Justin Tuck" jersey="91" position="DE" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 37 for 5 yards (59-M.Boley,91-J.Tuck).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/01c7daf1-9d0c-4cf7-a28f-a11e531b0aa2.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="b19db34c-26f7-4a51-9a30-ce1d43b5ab5c" clock="10:46" type="pass" sequence="121" updated="2012-09-06T02:59:05+00:00" side="DAL" yard_line="37" down="2" yfd="5" direction="Right" distance="Long">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="acf68a6a-3439-4ad6-8937-2562f4eba62b" name="Miles Austin" jersey="19" position="WR" team="DAL"/>
+          <player id="ed8fdad4-b43e-4232-b0de-c579d5348286" name="Corey Webster" jersey="23" position="CB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 19-M.Austin. 19-M.Austin to NYG 43 for 20 yards (23-C.Webster).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/b19db34c-26f7-4a51-9a30-ce1d43b5ab5c.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="c8853e6b-ac48-46b8-9142-7813ffe01e68" clock="10:11" type="rush" sequence="122" updated="2012-09-06T03:00:03+00:00" side="NYG" yard_line="43" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="84d8e40d-8123-4c0e-a3c1-3d86013d48c9" name="Antrel Rolle" jersey="26" position="SAF" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to NYG 34 for 9 yards (26-A.Rolle).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/c8853e6b-ac48-46b8-9142-7813ffe01e68.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="1c77ac0a-bdec-4f18-92ef-8795ba68847b" clock="09:30" type="rush" sequence="123" updated="2012-09-06T03:01:04+00:00" side="NYG" yard_line="34" down="2" yfd="1" direction="Right">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="35309193-c21f-4b9a-9f33-2162e8c817b6" name="Michael Boley" jersey="59" position="LB" team="NYG"/>
+          <player id="6c48b2a7-924e-43ec-bcd9-f1cda06b2332" name="Linval Joseph" jersey="97" position="DT" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to NYG 38 for -4 yards (59-M.Boley). Penalty on NYG 97-L.Joseph, Offside, 5 yards, enforced at NYG 34. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/1c77ac0a-bdec-4f18-92ef-8795ba68847b.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="033a95fd-06a1-4233-b70b-46f7f8144551" clock="09:05" type="penalty" sequence="124" updated="2012-09-06T03:00:55+00:00" side="NYG" yard_line="29" down="1" yfd="10">
+        <participants>
+          <player id="c3f2ea91-98d6-4d37-b5bd-3c7ac07e5b24" name="Tyron Smith" jersey="77" position="T" team="DAL"/>
+        </participants>
+        <summary>Penalty on DAL 77-T.Smith, False start, 5 yards, enforced at NYG 29. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/033a95fd-06a1-4233-b70b-46f7f8144551.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="2f684482-9acc-44bd-ac83-ac63d83879eb" clock="08:45" type="pass" sequence="125" updated="2012-09-06T03:02:14+00:00" side="NYG" yard_line="34" down="1" yfd="15" formation="Shotgun" direction="Right" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="acf68a6a-3439-4ad6-8937-2562f4eba62b" name="Miles Austin" jersey="19" position="WR" team="DAL"/>
+          <player id="f28cbca1-9c1e-4b90-865a-699bfa386c75" name="Osi Umenyiora" jersey="72" position="DE" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 19-M.Austin. 19-M.Austin to NYG 24 for 10 yards (72-O.Umenyiora).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/2f684482-9acc-44bd-ac83-ac63d83879eb.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="f16fa156-c4f6-49f4-a4e0-488b03191366" clock="08:02" type="rush" sequence="126" updated="2012-09-06T03:03:32+00:00" side="NYG" yard_line="24" down="2" yfd="5" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="35309193-c21f-4b9a-9f33-2162e8c817b6" name="Michael Boley" jersey="59" position="LB" team="NYG"/>
+          <player id="e53ed040-6008-4de1-b5d4-6f69f85ea9bd" name="Chase Blackburn" jersey="93" position="LB" team="NYG"/>
+          <player id="b84fb536-9705-45a9-b652-92a33578ac48" name="Dez Bryant" jersey="88" position="WR" team="DAL"/>
+        </participants>
+        <summary>29-D.Murray to NYG 22 for 2 yards (59-M.Boley,93-C.Blackburn). Penalty on DAL 88-D.Bryant, Illegal motion, 5 yards, enforced at NYG 24. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/f16fa156-c4f6-49f4-a4e0-488b03191366.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="c79b0ad1-bf9a-43bf-8f0a-f37e1cf090bd" clock="07:48" type="rush" sequence="127" updated="2012-09-06T03:03:56+00:00" side="NYG" yard_line="29" down="2" yfd="10" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="ed8fdad4-b43e-4232-b0de-c579d5348286" name="Corey Webster" jersey="23" position="CB" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to NYG 14 for 15 yards (23-C.Webster).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/c79b0ad1-bf9a-43bf-8f0a-f37e1cf090bd.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="e51ee4f5-b4d4-4eb6-bd1a-a0c292d96a2d" clock="07:07" type="rush" sequence="128" updated="2012-09-06T03:05:18+00:00" side="NYG" yard_line="14" down="1" yfd="10" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="e53ed040-6008-4de1-b5d4-6f69f85ea9bd" name="Chase Blackburn" jersey="93" position="LB" team="NYG"/>
+          <player id="8720973c-9bde-4e66-a88e-66e933a99683" name="Mackenzy Bernadeau" jersey="73" position="G" team="DAL"/>
+        </participants>
+        <summary>29-D.Murray to NYG 11 for 3 yards (93-C.Blackburn). Penalty on DAL 73-M.Bernadeau, Illegal use of hands, 10 yards, enforced at NYG 14. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/e51ee4f5-b4d4-4eb6-bd1a-a0c292d96a2d.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="6e84b1e6-86e8-4645-87d8-8a16d6cc4aa8" clock="06:36" type="pass" sequence="129" updated="2012-09-06T03:06:22+00:00" side="NYG" yard_line="24" down="1" yfd="20" direction="Right" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+          <player id="c6682daa-01d2-4924-8aa8-ef2f44c2a2fb" name="Justin Tryon" jersey="30" position="CB" team="NYG"/>
+          <player id="b3eadf6a-2c55-4b53-b5be-74fdb6700627" name="Doug Free" jersey="68" position="OT" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo complete to 85-K.Ogletree. 85-K.Ogletree to NYG 16 for 8 yards (30-J.Tryon). Penalty on DAL 68-D.Free, Holding, 10 yards, enforced at NYG 24. No Play.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/6e84b1e6-86e8-4645-87d8-8a16d6cc4aa8.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="d92f8aad-c59e-47b6-9ecd-2f35531802cc" clock="06:04" type="pass" sequence="130" updated="2012-09-06T03:06:44+00:00" side="NYG" yard_line="34" down="1" yfd="30" direction="Left" distance="Long">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="acf68a6a-3439-4ad6-8937-2562f4eba62b" name="Miles Austin" jersey="19" position="WR" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo complete to 19-M.Austin. 19-M.Austin runs 34 yards for a touchdown.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/d92f8aad-c59e-47b6-9ecd-2f35531802cc.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="b6271619-487a-4b55-8b63-11b215f9c7ad" clock="05:57" type="extrapoint" sequence="131" updated="2012-09-06T03:07:08+00:00" side="NYG" yard_line="7">
+        <participants>
+          <player id="beb64618-614c-49f7-a3aa-c0c75b7839ea" name="Dan Bailey" jersey="5" position="K" team="DAL"/>
+        </participants>
+        <summary>5-D.Bailey extra point is good.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/b6271619-487a-4b55-8b63-11b215f9c7ad.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="05:57" team="NYG">
+      <play id="9ee35262-db82-4f4f-a26a-c126efc5b0b1" clock="05:57" type="kick" sequence="132" updated="2012-09-06T03:10:09+00:00" side="DAL" yard_line="35">
+        <participants>
+          <player id="beb64618-614c-49f7-a3aa-c0c75b7839ea" name="Dan Bailey" jersey="5" position="K" team="DAL"/>
+          <player id="a230a959-4fba-43cd-92a0-6552766c2bbf" name="David Wilson" jersey="22" position="RB" team="NYG"/>
+          <player id="c50caa8d-a858-46ad-b4af-9201753d2725" name="Gerald Sensabaugh" jersey="43" position="SAF" team="DAL"/>
+        </participants>
+        <summary>5-D.Bailey kicks 63 yards from DAL 35. 22-D.Wilson to NYG 21 for 19 yards (43-G.Sensabaugh).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/9ee35262-db82-4f4f-a26a-c126efc5b0b1.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="c87be57e-9b2d-46a8-b0d2-3d59e3aff636" clock="05:51" type="pass" sequence="133" updated="2012-09-06T03:12:55+00:00" side="NYG" yard_line="21" down="1" yfd="10" formation="Shotgun" direction="Middle" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="75f4e314-a25d-4833-b39e-02014853d7bb" name="Jason Hatcher" jersey="97" position="DT" team="DAL"/>
+          <player id="85a051d3-3f76-411d-a59e-82d04a971c3a" name="Orlando Scandrick" jersey="32" position="CB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 44-A.Bradshaw. 44-A.Bradshaw to NYG 30 for 9 yards (97-J.Hatcher,32-O.Scandrick).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/c87be57e-9b2d-46a8-b0d2-3d59e3aff636.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="2494fad4-cdc7-4dca-9adc-9d56e6fcf2a3" clock="05:19" type="pass" sequence="134" updated="2012-09-06T03:13:31+00:00" side="NYG" yard_line="30" down="2" yfd="1" formation="Shotgun" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="22eeb9ce-32a5-4728-bf30-06bd300b9365" name="Domenik Hixon" jersey="87" position="WR" team="NYG"/>
+          <player id="23893852-6ef4-48a9-99a0-c51f41670508" name="Brandon Carr" jersey="39" position="CB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 87-D.Hixon.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/2494fad4-cdc7-4dca-9adc-9d56e6fcf2a3.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="91526b45-85cd-453e-aefc-7a816befa5dd" clock="05:14" type="rush" sequence="135" updated="2012-09-06T03:14:02+00:00" side="NYG" yard_line="30" down="3" yfd="1" formation="Shotgun" direction="Right">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to DAL 37 for 33 yards (50-S.Lee).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/91526b45-85cd-453e-aefc-7a816befa5dd.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="e6f172cd-2834-4170-abec-dd4651051bde" clock="04:43" type="pass" sequence="136" updated="2012-09-06T03:15:01+00:00" side="DAL" yard_line="37" down="1" yfd="10" formation="Shotgun" direction="Middle" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="0ca741f8-58bd-4933-9d5c-0e04de3f4cff" name="Martellus Bennett" jersey="85" position="TE" team="NYG"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 85-M.Bennett.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/e6f172cd-2834-4170-abec-dd4651051bde.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="6a634dfb-372f-4468-814d-35809e7c072b" clock="04:38" type="pass" sequence="137" updated="2012-09-06T03:14:58+00:00" side="DAL" yard_line="37" down="2" yfd="10" formation="Shotgun" direction="Left" distance="Long">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 80-V.Cruz.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/6a634dfb-372f-4468-814d-35809e7c072b.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="467a072b-0b8b-4979-a7b9-c51dc9a3370e" clock="04:30" type="pass" sequence="138" updated="2012-09-06T03:15:34+00:00" side="DAL" yard_line="37" down="3" yfd="10" formation="Shotgun" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="23d7cd82-d526-4fd8-8f8a-97885f2bc926" name="Hakeem Nicks" jersey="88" position="WR" team="NYG"/>
+          <player id="e0d47951-fea7-4f2a-a936-f4d758ea6b83" name="Morris Claiborne" jersey="24" position="CB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 88-H.Nicks. 88-H.Nicks to DAL 29 for 8 yards (24-M.Claiborne).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/467a072b-0b8b-4979-a7b9-c51dc9a3370e.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock="04:03" type="teamtimeout" sequence="139" updated="2012-09-06T03:15:40+00:00">
+        <timeout number="2"/>
+        <summary>Timeout #2 by DAL at 04:03.</summary>
+      </event>
+      <play id="9af5b26e-696b-4db6-9324-b50e58ceb55c" clock="04:03" type="pass" sequence="140" updated="2012-09-06T03:19:10+00:00" side="DAL" yard_line="29" down="4" yfd="2" formation="Shotgun" direction="Middle" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+          <player id="f5fa509a-fc67-4c74-be9f-cb9cc8815a6f" name="DeMarcus Ware" jersey="94" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 80-V.Cruz. 80-V.Cruz to DAL 22 for 7 yards (50-S.Lee). Penalty on DAL 94-D.Ware, Offside, declined.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/9af5b26e-696b-4db6-9324-b50e58ceb55c.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="0d7c5a71-8d84-4097-a2a0-5e5515540626" clock="03:56" type="pass" sequence="141" updated="2012-09-06T03:19:22+00:00" side="DAL" yard_line="22" down="1" yfd="10" formation="Shotgun" direction="Middle" distance="Long">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="22eeb9ce-32a5-4728-bf30-06bd300b9365" name="Domenik Hixon" jersey="87" position="WR" team="NYG"/>
+        </participants>
+        <summary>10-E.Manning incomplete. Intended for 87-D.Hixon.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/0d7c5a71-8d84-4097-a2a0-5e5515540626.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="a618898b-86e3-4693-9d8f-ddac279bfc7e" clock="03:51" type="pass" sequence="142" updated="2012-09-06T03:19:45+00:00" side="DAL" yard_line="22" down="2" yfd="10" formation="Shotgun" direction="Left" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="22eeb9ce-32a5-4728-bf30-06bd300b9365" name="Domenik Hixon" jersey="87" position="WR" team="NYG"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 87-D.Hixon. 87-D.Hixon to DAL 18 for 4 yards (50-S.Lee).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/a618898b-86e3-4693-9d8f-ddac279bfc7e.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock="03:29" type="teamtimeout" sequence="143" updated="2012-09-06T03:20:00+00:00">
+        <timeout number="1"/>
+        <summary>Timeout #1 by NYG at 03:29.</summary>
+      </event>
+      <play id="9f203e58-ab44-4056-a73d-f43b602e67d7" clock="03:27" type="pass" sequence="144" updated="2012-09-06T03:22:32+00:00" side="DAL" yard_line="18" down="3" yfd="6" formation="Shotgun" direction="Right" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="51545c6d-3132-4477-8f51-df5c29ed971e" name="Victor Cruz" jersey="80" position="WR" team="NYG"/>
+          <player id="23893852-6ef4-48a9-99a0-c51f41670508" name="Brandon Carr" jersey="39" position="CB" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 80-V.Cruz. 80-V.Cruz to DAL 13 for 5 yards (39-B.Carr).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/9f203e58-ab44-4056-a73d-f43b602e67d7.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="7da82d90-f918-42fb-802e-4c7b394c7fd4" clock="03:04" type="rush" sequence="145" updated="2012-09-06T03:23:54+00:00" side="DAL" yard_line="13" down="4" yfd="1" formation="Shotgun" direction="Left">
+        <participants>
+          <player id="8f22eb36-5282-407a-b6f9-f9b62e5f7318" name="Ahmad Bradshaw" jersey="44" position="RB" team="NYG"/>
+          <player id="439874cf-4057-4a7b-922b-f77a90a5bba2" name="Sean Lee" jersey="50" position="LB" team="DAL"/>
+          <player id="65859588-5da0-4df0-a339-6adf83287078" name="Anthony Spencer" jersey="93" position="LB" team="DAL"/>
+        </participants>
+        <summary>44-A.Bradshaw to DAL 9 for 4 yards (50-S.Lee,93-A.Spencer).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/7da82d90-f918-42fb-802e-4c7b394c7fd4.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="0027b8a5-20c9-4344-81f9-5846cd162a79" clock="02:41" type="pass" sequence="146" updated="2012-09-06T03:24:45+00:00" side="DAL" yard_line="9" down="1" yfd="9" formation="Shotgun" direction="Middle" distance="Short">
+        <participants>
+          <player id="6cb6226e-f08c-4192-95f1-69709ed686c6" name="Eli Manning" jersey="10" position="QB" team="NYG"/>
+          <player id="0ca741f8-58bd-4933-9d5c-0e04de3f4cff" name="Martellus Bennett" jersey="85" position="TE" team="NYG"/>
+          <player id="ad9a6262-7df3-41a8-9753-b89866f5cd0e" name="Barry Church" jersey="42" position="SAF" team="DAL"/>
+        </participants>
+        <summary>10-E.Manning complete to 85-M.Bennett. 85-M.Bennett runs 9 yards for a touchdown. Penalty on DAL 42-B.Church, Pass interference, declined.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/0027b8a5-20c9-4344-81f9-5846cd162a79.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="aa9b21c1-45cd-461c-a28f-2fc4789e4067" clock="02:36" type="extrapoint" sequence="147" updated="2012-09-06T03:24:06+00:00" side="DAL" yard_line="7">
+        <participants>
+          <player id="97cebfd1-f7d0-4fc7-b3d8-6d2308e992e3" name="Lawrence Tynes" jersey="9" position="K" team="NYG"/>
+        </participants>
+        <summary>9-L.Tynes extra point is good.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/aa9b21c1-45cd-461c-a28f-2fc4789e4067.xml" type="application/xml"/>
+        </links>
+      </play>
+    </drive>
+    <drive clock="02:36" team="DAL">
+      <play id="91b7661c-9153-4a0d-aa6e-31fb3c45aeb4" clock="02:36" type="kick" sequence="148" updated="2012-09-06T03:27:03+00:00" side="NYG" yard_line="35">
+        <participants>
+          <player id="97cebfd1-f7d0-4fc7-b3d8-6d2308e992e3" name="Lawrence Tynes" jersey="9" position="K" team="NYG"/>
+          <player id="f0085214-6339-4843-a6c9-8ae118422284" name="Felix Jones" jersey="28" position="RB" team="DAL"/>
+          <player id="5cc16769-2495-4aca-b2d8-22f999238846" name="Stevie Brown" jersey="27" position="SAF" team="NYG"/>
+        </participants>
+        <summary>9-L.Tynes kicks 53 yards from NYG 35. 28-F.Jones to DAL 26 for 14 yards (27-S.Brown).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/91b7661c-9153-4a0d-aa6e-31fb3c45aeb4.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="8c28de83-7433-43c5-b052-7a82e08d0475" clock="02:31" type="rush" sequence="149" updated="2012-09-06T03:27:27+00:00" side="DAL" yard_line="26" down="1" yfd="10" direction="Right">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="e56569f1-eaf4-473b-b92c-fc5c84cc7338" name="Jason Pierre-Paul" jersey="90" position="DE" team="NYG"/>
+          <player id="bbfb80d3-910b-4be2-be73-3dab3c5ce398" name="Justin Tuck" jersey="91" position="DE" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 27 for 1 yard (90-J.Pierre-Paul,91-J.Tuck).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/8c28de83-7433-43c5-b052-7a82e08d0475.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock="02:26" type="teamtimeout" sequence="150" updated="2012-09-06T03:26:44+00:00">
+        <timeout number="2"/>
+        <summary>Timeout #2 by NYG at 02:26.</summary>
+      </event>
+      <play id="ccdc5ba5-a597-4bc6-b90a-b222293b3300" clock="02:26" type="rush" sequence="151" updated="2012-09-06T03:28:29+00:00" side="DAL" yard_line="27" down="2" yfd="9" direction="Right">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="e53ed040-6008-4de1-b5d4-6f69f85ea9bd" name="Chase Blackburn" jersey="93" position="LB" team="NYG"/>
+        </participants>
+        <summary>29-D.Murray to DAL 34 for 7 yards (93-C.Blackburn).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/ccdc5ba5-a597-4bc6-b90a-b222293b3300.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock="02:17" type="teamtimeout" sequence="152" updated="2012-09-06T03:28:26+00:00">
+        <timeout number="3"/>
+        <summary>Timeout #3 by NYG at 02:17.</summary>
+      </event>
+      <play id="9a841cde-afc7-4d10-aa65-b6b9eb040a48" clock="02:17" type="rush" sequence="153" updated="2012-09-06T03:39:07+00:00" side="DAL" yard_line="34" down="3" yfd="2" direction="Left">
+        <participants>
+          <player id="478ae115-d220-424e-af45-56137f163d3a" name="DeMarco Murray" jersey="29" position="RB" team="DAL"/>
+          <player id="391881cd-4f9f-49c8-ba78-10ce74728f6d" name="Kenny Phillips" jersey="21" position="SAF" team="NYG"/>
+          <player id="e38c9b1b-7c51-48a2-ac1d-a752502e8930" name="Jason Witten" jersey="82" position="TE" team="DAL"/>
+        </participants>
+        <summary>29-D.Murray to DAL 37 for 3 yards (21-K.Phillips). Penalty on DAL 82-J.Witten, Holding, 10 yards, enforced at DAL 36.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/9a841cde-afc7-4d10-aa65-b6b9eb040a48.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="fc419f24-8e7a-4bf6-96a2-9009d1a6c83a" clock="02:11" type="pass" sequence="154" updated="2012-09-06T03:33:21+00:00" side="DAL" yard_line="26" down="3" yfd="10" formation="Shotgun" direction="Left" distance="Short">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+          <player id="5649ae74-aac1-433f-8f0f-ea812a285fac" name="Kevin Ogletree" jersey="85" position="WR" team="DAL"/>
+          <player id="c6682daa-01d2-4924-8aa8-ef2f44c2a2fb" name="Justin Tryon" jersey="30" position="CB" team="NYG"/>
+        </participants>
+        <summary>9-T.Romo complete to 85-K.Ogletree. 85-K.Ogletree to DAL 39 for 13 yards (30-J.Tryon).</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/fc419f24-8e7a-4bf6-96a2-9009d1a6c83a.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock="02:00" type="twominuteswarning" sequence="155" updated="2012-09-06T03:31:42+00:00">
+        <summary>Two-Minute Warning</summary>
+      </event>
+      <play id="359ac016-2cc5-4210-9cc1-f1011e330c26" clock="02:00" type="rush" sequence="156" updated="2012-09-06T03:33:28+00:00" side="DAL" yard_line="39" down="1" yfd="10">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo kneels at DAL 38 for -1 yard.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/359ac016-2cc5-4210-9cc1-f1011e330c26.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="b1824c9c-48c4-494b-9f85-edcf910b97fc" clock="01:24" type="rush" sequence="157" updated="2012-09-06T03:33:54+00:00" side="DAL" yard_line="38" down="2" yfd="11">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo kneels at DAL 35 for -3 yards.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/b1824c9c-48c4-494b-9f85-edcf910b97fc.xml" type="application/xml"/>
+        </links>
+      </play>
+      <play id="1b45493c-2cf2-4e1d-907c-90be473d6fd1" clock=":38" type="rush" sequence="158" updated="2012-09-06T03:34:30+00:00" side="DAL" yard_line="35" down="3" yfd="14">
+        <participants>
+          <player id="c32d8200-2b85-4638-8db3-9a52fb86b207" name="Tony Romo" jersey="9" position="QB" team="DAL"/>
+        </participants>
+        <summary>9-T.Romo kneels at DAL 34 for -1 yard.</summary>
+        <links>
+          <link rel="summary" href="/2012/REG/1/DAL/NYG/plays/1b45493c-2cf2-4e1d-907c-90be473d6fd1.xml" type="application/xml"/>
+        </links>
+      </play>
+      <event clock=":00" type="quarterend" sequence="159" updated="2012-09-06T03:34:15+00:00">
+        <summary>End of 4th Quarter</summary>
+      </event>
+      <event clock=":00" type="gameover" sequence="160" updated="2012-09-06T03:34:17+00:00">
+        <summary>End of Game</summary>
+      </event>
+    </drive>
+  </quarter>
+  <!-- Generation  ended at Fri Sep 14 19:28:54 +0000 2012 -->
+</game>
