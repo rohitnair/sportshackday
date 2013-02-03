@@ -9,8 +9,9 @@ module.exports = function(app) {
     console.log(req.body);
     var phoneNumber = req.body.From;
     Play.find({}).sort('-_id').limit(1).exec(function(err, play) {
+      var voteValue = req.body.Body.trim().toLowerCase();
       vote = new Vote({
-        value: req.body.Body,
+        value: voteValue,
         phoneNumber: req.body.From,
         _play: play[0]._id,
       });
@@ -30,9 +31,9 @@ module.exports = function(app) {
       var yes = 0;
       var no = 0;
       for(var i = 0; i < votes.length; i++) {
-        if (votes[i].value.trim().toLowerCase() === "yes") {
+        if (votes[i].value === "yes") {
           yes += 1;
-        } else if (votes[i].value.trim().toLowerCase() === "no") {
+        } else if (votes[i].value === "no") {
           no += 1;
         }
       }
