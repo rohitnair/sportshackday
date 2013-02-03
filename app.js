@@ -50,7 +50,7 @@ app.get('/api', function (req, res) {
 });
 
 // Launch server
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 4242;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });

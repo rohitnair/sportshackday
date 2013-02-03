@@ -27,6 +27,21 @@ module.exports = function(app) {
       }); 
     });
   });
+
+  app.get('/api/votes', function (req, res){
+    Vote.find({}).exec(function(err, votes) {
+      var yes = 0;
+      var no = 0;
+      for(var i = 0; i < votes.length; i++) {
+        if (votes[i].value.trim().toLowerCase() === "yes") {
+          yes += 1;
+        } else if (votes[i].value.trim().toLowerCase() === "no") {
+          no += 1;
+        }
+      }
+      return res.send({Yes: yes, No: no})
+    });
+  });
 }
 
 
