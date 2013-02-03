@@ -92,3 +92,10 @@ app.get('/index', function (req, res) {
     no: 0
   });
 });
+
+app.get('/playbyplay', function (req, res) {
+  res.render('playbyplay.html', { 
+    yes: 0,
+    no: 0
+  });
+});

@@ -5,14 +5,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <script src="modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         <script src="http://d3js.org/d3.v3.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="plugins.js"></script>
+        <script src="main.js"></script>
 
         <div style="text-align: center">
             <p id="myPara" style="text-align: center">NFL - Superbowl</p>
@@ -21,6 +21,93 @@
             <canvas id="myCanvas" width="1024" height="768">
             </canvas>
         </div>
+    <div style="display:none">Yes - <span id="yes">{{ yes }}</span></div>
+    <div style="display:none">No - <span id="no">{{ no }}</span></div>
+    <div id="chart" style="min-width: 400px; height: 500px; margin: 0 auto"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/highcharts.js"></script>
+  <script>
+
+    $(document).ready(function() {
+    
+      var chartdata = [], 
+          labels = [];
+
+      chartdata.push({{ yes }});
+      chartdata.push({{ no }});
+      labels.push("Yes");
+      labels.push("No");
+      
+      chart = new Highcharts.Chart({
+          chart: {
+              renderTo: 'chart',
+              width: 500,
+              height: 300,
+              type: 'bar'
+          },
+          title: {
+              text: 'Voting Results'
+          },
+          xAxis: {
+              categories: labels,
+              title: {
+                  text: null
+              },
+              labels: {
+                style: {
+                  fontSize: '1.3em',
+                  fontWeight: 'bold'
+                }
+              }
+          },
+          yAxis: {
+              min: 0,
+              title: {
+                  text: 'Votes',
+                  align: 'high'
+              },
+          },
+          plotOptions: {
+              bar: {
+                  dataLabels: {
+                      enabled: true,
+                      style: {
+                        fontSize: '1.3em',
+                        fontWeight: 'bold'
+                      }
+                  }
+              }
+          },
+          legend: {
+              enabled: false
+          },
+          credits: {
+              enabled: false
+          },
+          series: [{name: 'Votes',data: chartdata}]
+    });   
+    var socket = io.connect('http://localhost:4242');
+    socket.on('yes', function () {
+      var value = parseInt($('#yes').html()) + 1;
+      $('#yes').html(value);
+      chart.series[0].data[0].update(value);
+    });
+    socket.on('no', function () {
+      var value = parseInt($('#no').html()) + 1;
+      $('#no').html(value);
+      chart.series[0].data[1].update(value);
+    });
+    
+  });
+  
+  function reset() {
+      $('#yes').html(0);
+      chart.series[0].data[0].update(0);
+      $('#no').html(0);
+      chart.series[0].data[1].update(0);
+  }
+  </script>
 
     </body>
 </html>
