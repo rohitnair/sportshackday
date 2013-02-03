@@ -29,6 +29,7 @@
     <script src="/highcharts.js"></script>
   <script>
 
+    var chart;
     $(document).ready(function() {
     
       var chartdata = [], 
@@ -101,12 +102,6 @@
     
   });
   
-  function reset() {
-      $('#yes').html(0);
-      chart.series[0].data[0].update(0);
-      $('#no').html(0);
-      chart.series[0].data[1].update(0);
-  }
   </script>
 
     </body>

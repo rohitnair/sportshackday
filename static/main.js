@@ -117,7 +117,18 @@ function updateUIWithPlay() {
         clock2 = parseInt(clock2.split(':')[0]*60) + parseInt(clock2.split(':')[1]);
 
         xmlPlaysPos = xmlPlaysPos+1;
-        setTimeout(updateUIWithPlay, Math.min((clock1-clock2)*600, 5000));
+        $('#yes').html('0');
+        chart.series[0].data[0].update(0);
+        $('#no').html('0');
+        chart.series[0].data[1].update(0);
+        $.ajax({
+            type: "POST",
+          url: "api/play",
+          success: function(res) {
+            console.log(res);
+          }
+        });
+        setTimeout(updateUIWithPlay, Math.min((clock1-clock2)*45000, 5000));
     }
 }
 
