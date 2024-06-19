@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "3.x",
     "mongoose": "5.7.8",
-    "socket.io": "0.9.13",
+    "socket.io": "2.5.0",
     "swig": "0.13.5",
     "consolidate": "0.8.0"
   },
